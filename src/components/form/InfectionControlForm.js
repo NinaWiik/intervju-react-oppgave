@@ -62,8 +62,8 @@ function InfectionControlForm() {
             )}
           </Form.Group>
           <Form.Group>
-            <Form.Label>Dato for besøk</Form.Label>
-            <Form.Control name="dato" type="date" ref={register} />
+            <Form.Label>Født</Form.Label>
+            <Form.Control name="bursdag" type="date" ref={register} />
           </Form.Group>
         </Form.Row>
         <Button type="submit">Submit</Button>

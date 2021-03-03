@@ -24,7 +24,7 @@ function InfectionControl() {
                 </a>
               </ListGroup.Item>
               <ListGroup.Item>
-                <b>Dato:</b> 03.03.2021{" "}
+                <b>Født:</b> 03.03.1988{" "}
               </ListGroup.Item>
             </ListGroup>
           </Card>
@@ -46,7 +46,7 @@ function InfectionControl() {
                 </a>
               </ListGroup.Item>
               <ListGroup.Item>
-                <b>Dato:</b> 03.03.2021{" "}
+                <b>Født:</b> 06.01.1988{" "}
               </ListGroup.Item>
             </ListGroup>
           </Card>
@@ -68,7 +68,7 @@ function InfectionControl() {
                 </a>
               </ListGroup.Item>
               <ListGroup.Item>
-                <b>Dato:</b> 03.03.2021{" "}
+                <b>Født:</b> 16.02.1992{" "}
               </ListGroup.Item>
             </ListGroup>
           </Card>
@@ -91,7 +91,7 @@ function InfectionControl() {
                 </a>
               </ListGroup.Item>
               <ListGroup.Item>
-                <b>Dato:</b> 04.03.2021{" "}
+                <b>Født:</b> 04.03.2001{" "}
               </ListGroup.Item>
             </ListGroup>
           </Card>
@@ -114,7 +114,7 @@ function InfectionControl() {
                 </a>
               </ListGroup.Item>
               <ListGroup.Item>
-                <b>Dato:</b> 04.03.2021{" "}
+                <b>Født:</b> 19.12.1994{" "}
               </ListGroup.Item>
             </ListGroup>
           </Card>
@@ -137,7 +137,7 @@ function InfectionControl() {
                 </a>
               </ListGroup.Item>
               <ListGroup.Item>
-                <b>Dato:</b> 04.03.2021{" "}
+                <b>Født:</b> 14.08.1997{" "}
               </ListGroup.Item>
             </ListGroup>
           </Card>
