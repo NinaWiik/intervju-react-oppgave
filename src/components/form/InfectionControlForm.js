@@ -25,10 +25,10 @@ function InfectionControlForm() {
       <Form onSubmit={handleSubmit(onSubmit)}>
         <Form.Row>
           <Form.Group>
-            <Form.Label>Fult Navn</Form.Label>
+            <Form.Label>Fullt Navn</Form.Label>
             <Form.Control
-              name="fultNavn"
-              placeholder="Fyll inn fult navn"
+              name="fulltNavn"
+              placeholder="Fyll inn fullt navn"
               ref={register}
             />
             {errors.fultNavn && (
