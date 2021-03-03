@@ -1,22 +1,11 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
-import * as yup from "yup";
 import { Button, Form } from "react-bootstrap";
 import ErrorMessage from "./ErrorMessage";
 
-const schema = yup.object().shape({
-  fultNavn: yup.string().required("fult navn er obligatorisk"),
-  epost: yup
-    .string()
-    .email("Vennligst skriv inn en korrekt epost")
-    .required("Epost er obligatorisk"),
-});
-
 function InfectionControlForm() {
   const [validated, setValidated] = useState(false);
-  const { register, handleSubmit, errors } = useForm({
-    validationSchema: schema,
-  });
+  const { register, handleSubmit, errors } = useForm();
 
   function onSubmit(data) {
     console.log("data", data);
@@ -24,7 +13,7 @@ function InfectionControlForm() {
   }
 
   return (
-    <div>
+    <>
       <p>
         Fyll ut fult navn, epost, dato du besøkte oss og et telefon nummer vi
         kan nå deg på i tilfelle vi må smittespore deg!
@@ -79,7 +68,7 @@ function InfectionControlForm() {
         </Form.Row>
         <Button type="submit">Submit</Button>
       </Form>
-    </div>
+    </>
   );
 }
 
