@@ -21,6 +21,9 @@ function Navigation() {
           <NavLink to="/" exact>
             Home
           </NavLink>
+          <NavLink to="/" exact>
+            Registrer
+          </NavLink>
           <NavLink to="/admin">Admin</NavLink>
         </Nav>
       </Navbar>
