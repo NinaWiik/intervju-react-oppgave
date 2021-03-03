@@ -4,7 +4,7 @@ import InfectionControlForm from "../form/InfectionControlForm";
 function Home() {
   return (
     <>
-      <h1>Registrer smittevern</h1>
+      <h1>Registrer Smittesporing</h1>
       <InfectionControlForm />
     </>
   );
